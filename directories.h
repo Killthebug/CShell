@@ -22,7 +22,7 @@ void trimCWD()
     char trimmed[LIMIT] ;
     int counter = 0;
     int i , j;
-    for( i = 0 ; pCWD[i] != '\0'; i++ )
+    for( i = 0 ; pCWD[i] != '\0'; i++)
     {
         if ( pCWD[i] == '/' )
             counter = i;
